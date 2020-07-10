@@ -1,0 +1,32 @@
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            AGREGAR DATOS DE LA PERSONA
+        </div>
+        <div class="card-body">
+          
+                <form action="/personas/agregar" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" name="nombre" id="nombre" value="">
+                    </div> 
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" class="form-control" name="apellido" id="apellido" value="">
+                    </div>  
+                    <div class="form-group">
+                        <label for="profesion">Profesion:</label>
+                        <input type="text" class="form-control" name="profesion" id="profesion" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Edad:</label>
+                        <input type="number" class="form-control" name="edad" id="edad" value="">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-sm btn-primary">Guardar</button>
+                    </div>        
+                </form>
+           
+        </div>
+    </div>
+</div>
